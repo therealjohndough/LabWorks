@@ -1,0 +1,21 @@
+{
+  "name": "labworks",
+  "version": "1.0.0",
+  "description": "Agency management tools: CRM, Proposal Generator, and Time Tracker",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": ["crm", "proposal", "invoice", "time-tracker", "agency"],
+  "author": "John Dough",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "pdfkit": "^0.17.2",
+    "sqlite3": "^5.1.7"
+  }
+}
